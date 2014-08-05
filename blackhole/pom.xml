@@ -1,0 +1,23 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>org.krost</groupId>
+	<artifactId>blackhole</artifactId>
+	<version>0.2.5-SNAPSHOT</version>
+	<name>BlackHole</name>
+	<description>BlackHole opensource data deduplication - repacked and mavenized version of Blackhole (http://vanheusden.com/java/BlackHole/)</description>
+
+	<dependencies>
+		<dependency>
+			<groupId>com.fallabs</groupId>
+			<artifactId>kyotocabinet-java</artifactId>
+			<version>1.24</version>
+		</dependency>
+		<dependency>
+			<groupId>org.mongodb</groupId>
+			<artifactId>mongo-java-driver</artifactId>
+			<version>2.12.3</version>
+		</dependency>
+	</dependencies>
+
+</project>
